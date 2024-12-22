@@ -121,14 +121,14 @@ The odds data is parsed and structured into:
 -   **Package Manager**: Homebrew (for dependency installation)
 -   **Environment Variables**:
     -   `API_KEY`: Your API key from The Odds API.
-    -   `THREAD_COUNT` (optional): Number of threads for multithreading (defaults to number of in-season sports fetched).
+    -   `THREAD_COUNT` (optional): Number of threads for multithreading (defaults to number of cpu cores).
 
 ### Installation
 
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/ArieArya/VantEdge
+    git clone https://github.com/tony-feasts/bet-sync
     cd VantEdge
     ```
 
